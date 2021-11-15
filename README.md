@@ -74,7 +74,7 @@ The program will return errors for multiple conditions.
 Return Code | Definition | Description
 ---|---|---
 0 | Success | No error occured.
-1 | Syntax Error | The executable did not recieve two arguments. (i. e., ./[EXECUTABLE_NAME] [NUMBER])
+1 | Syntax Error | The executable did not recieve two arguments. (```./[EXECUTABLE_NAME] [NUMBER]```)
 2 | Argument Error | The argument passed was not a whole number.
 
 On a success, the program will output the nth number in the Fibonacci sequence as:
